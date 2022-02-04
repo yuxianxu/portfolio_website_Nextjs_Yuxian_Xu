@@ -6,6 +6,14 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
 `
+export const ProjectsTitleContainer = styled.div`
+  padding-left: 4rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-left:1rem;
+  }
+ 
+`
 
 export const GridContainer = styled.section`
 display: grid;
