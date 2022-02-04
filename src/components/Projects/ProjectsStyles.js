@@ -7,7 +7,7 @@ export const Img = styled.img`
   overflow: hidden;
 `
 export const ProjectsTitleContainer = styled.div`
-  padding-left: 4rem;
+  padding-left: 0rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding-left:1rem;

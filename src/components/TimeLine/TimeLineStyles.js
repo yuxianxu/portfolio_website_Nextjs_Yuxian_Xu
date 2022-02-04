@@ -28,7 +28,7 @@ export const AboutMeContainer = styled.div`
   padding-bottom: 3.5rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 `;
 export const AboutMeText = styled.div`
@@ -115,13 +115,13 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(
-    121.57deg,
-    #ffffff 10%,
-    rgba(255, 255, 255, 0.66) 30.15%
-  );
+  // background: linear-gradient(
+  //   121.57deg,
+  //   #ffffff 10%,
+  //   rgba(255, 255, 255, 0.66) 30.15%
+  // );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  // -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -132,6 +132,7 @@ export const CarouselItemTitle = styled.h4`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
+    color: #fff;
     line-height: 24px;
   }
 `;

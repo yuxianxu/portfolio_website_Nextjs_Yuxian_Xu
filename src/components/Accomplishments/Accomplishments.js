@@ -16,8 +16,6 @@ const data = [
 
 const Accomplishments = () => (
   <Section>
-    <SectionDivider />
-    <br />
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map(({ number, text, index }) => (
