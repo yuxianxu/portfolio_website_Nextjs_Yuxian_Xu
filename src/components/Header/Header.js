@@ -8,6 +8,7 @@ import {
   Div1,
   Div2,
   Div3,
+  Div4,
   NavLink,
   SocialIcons,
   Span,
@@ -50,6 +51,10 @@ const Header = () => (
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
+    {/* <Div4>
+
+    </Div4> */}
+  
   </Container>
 );
 
