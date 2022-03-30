@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-[Portfolio Website](https://www.yuxianxu.com)
+[Portfolio Website - yuxianxu.com](https://www.yuxianxu.com)
 
 - Created by next js
 - Deployed on hostinger
