@@ -4,7 +4,7 @@ import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitleTech,
 } from "../../styles/GlobalComponents";
 import {
   List,
@@ -15,12 +15,15 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id="tech" style={{background: "#fff"}}>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a range technologies and created 12 web applications.
+    <SectionTitleTech style={{color: "#666666"}}>
+      Technologies
+    </SectionTitleTech>
+
+    <SectionText style={{color: "#888888"}}>
+      I've worked with a range technologies and created 12+ web applications.
       From font-end to back-end.
     </SectionText>
     <List>
@@ -47,11 +50,9 @@ const Technologies = () => (
         </svg>
         <br />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with
-            <br />
-            React.js
+          <ListTitle style={{color: "#888888"}}>Front-End</ListTitle>
+          <ListParagraph style={{color: "#888888"}}>
+            Experience with React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -69,12 +70,10 @@ const Technologies = () => (
         </svg>
         <br />
 
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with
-            <br />
-            Node and Database
+        <ListContainer style={{color: "#888888"}}>
+          <ListTitle style={{color: "#888888"}}>Back-End</ListTitle>
+          <ListParagraph style={{color: "#888888"}}>
+            Experience with Node and Database
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -93,11 +92,9 @@ const Technologies = () => (
         </svg>
         <br />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with
-            <br />
-            Figma
+          <ListTitle style={{color: "#888888"}}>UI/UX</ListTitle>
+          <ListParagraph style={{color: "#888888"}}>
+            Experience with Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -116,11 +113,9 @@ const Technologies = () => (
 
         <br />
         <ListContainer>
-          <ListTitle>Cloud</ListTitle>
-          <ListParagraph>
-            Experience with
-            <br />
-            AWS
+          <ListTitle style={{color: "#888888"}}>Cloud</ListTitle>
+          <ListParagraph style={{color: "#888888"}}>
+            Experience with AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>
